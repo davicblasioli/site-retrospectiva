@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --branco: white;
+    --azulescuro: rgb(14, 16, 70);
+}
+
+body {
+    background-color: var(--azulescuro);
+}
+
+h1 {
+    font-family: "Cabin", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.icone {
+    width: 150px;
+    height: auto;
+}
+
+.pai_quadrados {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tit_quadrado{
+    font-family: "Cabin", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.tit_sessao {
+    font-size: x-large;
+    text-align: center;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado{
+    margin: 50px 2px;
+    width: 700px;
+    height: fit-content;
+    padding: 10px 5px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--branco);
+}
+
+.quadrado2{
+    margin: 50px 2px;
+    width: 450px;
+    height: fit-content;
+    padding: 10px 5px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--branco);
+}
+
+.quadrado-img {
+    margin: 50px;
+    padding: 10px 5px;
+    align-items: center;
+    height: fit-content;
+}
+
+.borda_rdnd{
+    border: 5px;
+    border-radius: 10px;
+}
+
+.txt_center {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.branco {
+    background-color: var(--branco);
+}
+
+.gap-p {
+    gap: 40px;
+}
+
+.pad-p {
+    padding: 10px 10px 15px;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.mensagem-final {
+    font-family: "Playwrite US Trad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(255, 0, 157);
+    text-align: center;
+}
+
+.quadrado-final{
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--branco);
+}
+
+.contrata {
+    width: 400px;
+}
